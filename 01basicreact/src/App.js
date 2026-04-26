@@ -1,8 +1,11 @@
-
+import Chai from './Chai'
 
 function App() {
   return (
+    <>
+    <Chai />
     <h1>Learning React</h1>
+    </>
   );
 }
 

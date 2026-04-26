@@ -1,11 +1,16 @@
-import { useState } from "react";
 
+import Chai from "./chai"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <h1>Learning React with Vite | SJ</h1>
+    <>
+    <Chai/>
+     <h1>chai aur react {username}</h1>
+     <p>test para</p>
+    </>
+
   )
 }
 
